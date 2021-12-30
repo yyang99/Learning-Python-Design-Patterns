@@ -5,27 +5,27 @@ from abc import ABCMeta, abstractmethod
 
 class Section(metaclass=ABCMeta):
     @abstractmethod
-    def describle(self):
+    def describe(self):
         pass
 
 
 class PersonalSection(Section):
-    def describle(self):
+    def describe(self):
         print("Personal Section")
 
 
 class AlbumSection(Section):
-    def describle(self):
+    def describe(self):
         print("Album Section")
 
 
 class PatenSection(Section):
-    def describle(self):
+    def describe(self):
         print("Patent Section")
 
 
 class PublicationSection(Section):
-    def describle(self):
+    def describe(self):
         print("Publication Section")
 
 
